@@ -1,0 +1,65 @@
+body{
+  background-image: url(img/clean.png);
+  background-color: rgb(218, 237, 244);
+  background-repeat: no-repeat;
+  background-size: 37%;
+  background-position: 80% 0%;
+  color: rgb(255, 165, 5);
+  font-size: 1.7rem;
+}
+.leave{
+  width: 100%;
+}
+
+
+h3{
+  color: rgb(18, 70, 90);
+}
+
+
+
+
+.container{
+  padding-top: 0%;
+}
+.keys{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forms{
+ /* float: left; */
+ width: 50%;
+}
+
+input,button,textarea{
+  width: 80%;
+  clear: both;
+  font-size: 1.5rem;
+  color: rgb(18, 70, 90);
+}
+li{
+  font-size: 1.2rem;
+}
+.blackOut{
+  width: 100%;
+}
+
+.client{
+  width: 34%;
+  border: 1px solid black;
+}
+
+/* .nameS,.locationS,.dateS,.cellS,.msgS{
+  color: rgb(18, 70, 90);
+} */
+
+.strike{
+  text-decoration: line-through;
+  color: rgb(254, 161, 8);
+}
+.blueS,.fa-truck-fast{
+  color: rgb(18, 70, 90);
+  text-decoration: none;
+  
+}
